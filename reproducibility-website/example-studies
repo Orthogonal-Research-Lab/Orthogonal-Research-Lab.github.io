@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<body>
+<font face="Arial">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+#grad1 {
+    background-color: silver;
+    background-image: linear-gradient(45deg, silver , grey);
+}
+</style>
+<style>
+body {margin:0;}
+.navbar {
+  overflow: hidden;
+  background-color: gray;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.navbar a:hover {
+  background: silver;
+  color: black;
+}
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; /* Used in this example to enable scrolling */
+}
+</style>
+<style>
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: gray;
+   color: black;
+   text-align: center;
+}
+</style>
+<style>
+table, th, td {
+    border: 1px solid black;
+}
+</style>
+<style>
+  #div1 {
+    width:60%;
+  }
+</style>
+</head>
+<body>
+<div id="grad1">
+<div class="navbar">
+  <a href="https://orthogonal-research-lab.github.io/reproducibility-website/">Special Topics</a>
+  <a href="https://orthogonal-research-lab.github.io/reproducibility-website/resources/">Resources</a>
+  <a href="https://orthogonal-research-lab.github.io/reproducibility-website/example-studies/">Example Studies</a>
+  <a href="https://orthogonal-research-lab.github.io/reproducibility-website/people.htm">People</a>
+  <a href="https://orthogonal-research.weebly.com/">Created by Orthogonal Research</a>
+  <IMG SRC="https://user-images.githubusercontent.com/38323286/47186034-e45db600-d2f4-11e8-966c-f3a712697dcd.png" HEIGHT = 25           WIDTH = 25>
+</div>
+<div class="main">
+<CENTER>
+  <H2>Example Studies</H2>
+</CENTER>
+<BR>
+<A name="support"></A>
+<div class="footer">
+  <p>Supported by <A HREF="http://aspb.org/">ASPB</A>, <A HREF="http://www.addgene.org/">Addgene</A>, <A HREF="https://www.protocols.io/">Protocols.io</A>, <A HREF="https://elifesciences.org/">eLife</A>, and <A HREF="https://codeocean.com/">CodeOcean</A>. All material is available under a <A HREF="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</A> license. Please feel free to remix, copy, distribute, use, improve, and snowball.</p>
+</div>
+  </font>
+</body>
+</html>
